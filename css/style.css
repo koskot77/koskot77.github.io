@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.indented {
+  margin-left: 20px;
+}
+
+/* desktop */
+@media (min-width: 992px) {
+  .col-lg-4, .col-remain
+  {
+    float: left;
+    padding: 0px;
+    width: 33%;
+  }
+  .col-remain
+  {
+    float: left;
+    width: 33%;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6
+  {
+    float: left;
+    padding: 0px;
+    width: 50%;
+  }
+  .col-remain
+  {
+    clear: left;
+  }
+}
+
+/* mobile */
+@media (min-width: 768px) and (max-width: 767px) {
+}
