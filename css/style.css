@@ -2,15 +2,16 @@
     box-sizing: border-box;
 }
 
+.header {
+  float: right;
+  margin: auto;
+  background-color: #D3D3D3;
+  margin: 0px;
+}
+
 .payload {
   margin-left: 20px;
   clear: right;
-}
-
-.header {
-  float: right;
-  background-color: yellow;
-  width: 25%;
 }
 
 /* desktop */
@@ -19,14 +20,14 @@
   {
     float: left;
     padding: 0px;
-    width: 33%;
+    width: 33.33%;
     border: 10px solid white;
     background-color: #FAFAFA;
   }
   .col-remain
   {
     float: left;
-    width: 33%;
+    width: 33.33%;
     border: 10px solid white;
     background-color: #FAFAFA;
   }
