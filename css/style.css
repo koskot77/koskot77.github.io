@@ -2,8 +2,15 @@
     box-sizing: border-box;
 }
 
-.indented {
+.payload {
   margin-left: 20px;
+  clear: right;
+}
+
+.header {
+  float: right;
+  background-color: yellow;
+  width: 25%;
 }
 
 /* desktop */
@@ -13,11 +20,15 @@
     float: left;
     padding: 0px;
     width: 33%;
+    border: 10px solid white;
+    background-color: #FAFAFA;
   }
   .col-remain
   {
     float: left;
     width: 33%;
+    border: 10px solid white;
+    background-color: #FAFAFA;
   }
 }
 
@@ -26,12 +37,15 @@
   .col-md-6
   {
     float: left;
-    padding: 0px;
     width: 50%;
+    border: 10px solid white;
+    background-color: #FAFAFA;
   }
   .col-remain
   {
     clear: left;
+    border: 10px solid white;
+    background-color: #FAFAFA;
   }
 }
 
